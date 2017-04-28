@@ -1,0 +1,6 @@
+$pad-media: 768px;
+@mixin pad-width(){
+	@media (max-width: $pad-media){
+		@content;
+	}
+}
