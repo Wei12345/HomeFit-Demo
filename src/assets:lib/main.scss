@@ -4,3 +4,23 @@ $pad-media: 768px;
 		@content;
 	}
 }
+.black-button{
+	display: inline-block;
+	font-family: cwTeXYen, Varela Round;
+	font-size: 1.2rem;
+	background-color: black;
+	padding: .9rem 2rem;
+	border-radius: .2rem;
+	border: 1px solid black;
+	color: white;
+	cursor: pointer;
+	&:link, &:visited{
+		text-decoration: none;
+		color: white;
+	}
+	&:hover, &:active{
+		text-decoration: none;
+		color: white;
+		background-color: #262626;
+	}
+}

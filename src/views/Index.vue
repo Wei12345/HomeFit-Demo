@@ -110,12 +110,13 @@
 				width: 100%;
 				height: $recommendHeight;
 				transition: all .7s ease-in-out;
+				cursor: pointer;
 				&:hover{
 					background-size: auto 120%;
 					opacity: .8;
 				}
 				&:hover ~ .recommendContent{
-					color: #ec8443;
+					color: #2ab1ef;
 				}
 				@include pad-width{
 					height: 100%;
